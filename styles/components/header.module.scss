@@ -1,0 +1,28 @@
+@import '../variables';
+
+.header {
+  background-color: $primary-color;
+  color: white;
+  padding: $spacing-lg;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  h1 {
+    margin-bottom: $spacing-md;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: $spacing-md;
+
+    li a {
+      color: white;
+      text-decoration: none;
+      transition: opacity 0.3s ease;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+}
