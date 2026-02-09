@@ -1,4 +1,4 @@
-import { LoginRequest, LoginResponse } from './types'
+import { LoginRequest, LoginResponse } from './types/auth'
 
 export async function loginWithJirama(
   credentials: LoginRequest
